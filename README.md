@@ -24,7 +24,7 @@ Hello! I am **Yewon Jang**, a researcher striving for the digital transformation
 
 ## 3. Mechatronics & Robotics
 - **Snake Robot:** Implemented bio-inspired S-wave locomotion using Python and Maestro servo controllers.
-- [Read Full Research Paper (PDF)](./Reports/Snake_robot/A_MultiLinked_Wheeled_Robot_Inspired_by_Serpentine_Motion.pdf)
+  [Read Full Research Paper (PDF)](./Reports/Snake_robot/A_MultiLinked_Wheeled_Robot_Inspired_by_Serpentine_Motion.pdf)
 - **Braille Device:** Developed a 6-solenoid-based Braille notification device to improve information accessibility for the visually impaired.
 
 # 🔄 Ongoing Project: AI-FEA Integration Study
