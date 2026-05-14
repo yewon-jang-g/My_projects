@@ -28,7 +28,7 @@ Hello! I am **Yewon Jang**, a researcher striving for the digital transformation
   - [📄 Read Full Research Paper (In Korean) (PDF)](./Reports/Snake_robot/A_MultiLinked_Wheeled_Robot_Inspired_by_Serpentine_Motion.pdf)
 
 - **Braille Device:** Developed a 6-solenoid-based Braille notification device to improve information accessibility for the visually impaired.
-  - [🎬 Video: Braille Device Demonstration](./Reports/Braille/Braille_Device_Demo.MOV)
+  - [🎬 Video: Braille Device Demonstration](./Reports/Braille/Braille_Device_Demo.Mp4)
 
 # 🔄 Ongoing Project: AI-FEA Integration Study
 
