@@ -82,8 +82,6 @@ These experiences shaped my interest in developing more efficient computational 
 
 *Supporting simulation videos, figures, and lab-meeting presentations are available within each project page.*
 
----
-
 ## Ongoing Independent Project
 
 ### ML Surrogate Modeling for FEA Acceleration
@@ -108,8 +106,6 @@ My previous biomechanics projects revealed the computational challenges of detai
 **Planned Deliverables:** FEA dataset, Python models, accuracy and runtime comparisons, and reproducible GitHub documentation.
 
 **Long-Term Direction:** Extend ML-assisted simulation beyond surgical biomechanics toward efficient, generalizable methods for nonlinear computational mechanics.
-
----
 
 ## Robotics & Mechatronics
 
