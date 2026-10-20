@@ -71,6 +71,17 @@ The study reinforced my interest in improving the efficiency and reliability of 
 
 [Published Article](https://doi.org/10.3389/fbioe.2025.1611993) · [PDF](./Reports/Syndactyly/Handsurgery.pdf)
 
+## Research Progress & Behind the Simulations
+
+Beyond the final results presented in my publications, I documented the research process behind each project including preliminary simulations, numerical challenges, methodological changes, and lessons learned.
+
+These experiences shaped my interest in developing more efficient computational methods.
+
+- [**Syndactyly — From 3D Simulation to 2D Flap Analysis**](./Progress/Syndactyly.md)
+- [**Rhinoplasty — From Research Question to FEA**](./Progress/Rhinoplasty.md)
+
+*Supporting simulation videos, figures, and lab-meeting presentations are available within each project page.*
+
 ---
 
 ## Ongoing Independent Project
