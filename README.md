@@ -4,7 +4,7 @@
 
 **B.S. in Mechanical Engineering, Hanyang University (2026)**
 
-[Email](mailto:yewonjang1414@gmail.com) · [GitHub](https://github.com/yewon-jang-g) · [CV](./CV_final.pdf)
+[Email](mailto:yewonjang1414@gmail.com) · [CV](./CV_final.pdf)
 
 ## About Me
 
