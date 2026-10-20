@@ -12,7 +12,7 @@ My interest in studying rhinoplasty from a biomechanical perspective was inspire
 
 The resulting work compared **fascia-wrapped diced cartilage (DC-F)** with **platelet-rich fibrin-embedded diced cartilage (DC-PRF)**.
 
-**Supporting material:** [Initial proposal](./assets/Rhinoplasty/Rhinoplasty.pdf)
+**Supporting material:** [Initial proposal](./assets/Rhinoplasty/Idea_propasal.pdf)
 ## 2. Developing the nasal model
 
 I developed nasal geometry using **CATIA and SpaceClaim**. I assumed symmetry and modeled **one half of the nose** to reduce computational complexity. The final model contained a nasal soft tissue envelope, graft, nasal bone, lateral cartilage, and septal cartilage.
