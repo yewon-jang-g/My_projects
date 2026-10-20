@@ -1,39 +1,133 @@
-# 🚀 Mechanical Engineering & AI Research Journey
+# Yewon Jang
 
-Hello! I am **Yewon Jang**, a researcher striving for the digital transformation of industry by *integrating Finite Element Analysis (FEA) and AI*.
+### Computational Mechanics | Computational Biomechanics | Machine Learning
 
-# Featured Projects
+**B.S. in Mechanical Engineering, Hanyang University (2026)**
 
-## 1. Syndactyly Surgery Optimization (FEA)
-- **Tool:** ANSYS
-- **Description:** Comparative analysis of biomechanical stability for various surgical flap designs used in syndactyly release surgery.
-- **Key Results:** Derived optimal flap geometries to minimize stress concentration, providing mechanical evidence for clinical decision-making.
+[Email](mailto:yewonjang1414@gmail.com) · [GitHub](https://github.com/yewon-jang-g) · [CV](./CV_final.pdf)
 
-- **My Role & Contributions:**
-  - **Lead Simulation Researcher (for IMECE 2025):** Performed the entire FEA workflow to predict stress distribution and mechanical stability across different flap geometries.
-    - [📄 Research Paper: FEA Simulation & Analysis (IMECE 2025)](./Reports/Syndactyly/IMECE2025-166019_Final.pdf)
+## About Me
 
-  - **Feasibility & Proof-of-Concept:** Conducted a comprehensive literature review and **demonstrated the technical feasibility** of modeling realistic hand anatomy in ANSYS to extract actionable biomechanical insights.
-    - [📄 Literature Review: Hand Surgery Foundations](./Reports/Syndactyly/Handsurgery.pdf)
+I am a mechanical engineering graduate with research experience in **finite element analysis (FEA) and computational biomechanics**. My research interests lie in integrating physics-based simulation with machine learning to develop more efficient and reliable computational methods.
 
-## 2. Biomechanical Stability of Nasal Implants (FEA)
-- **Tool:** ANSYS
-- **Role:** **Lead Author & Primary Investigator** (First Author)
-- **Description:** Numerical analysis of the post-operative stability of nasal implants, comparing **PRF (Platelet-Rich Fibrin)** and **Fascia (DC-F)** under different impact magnitudes
-- **Key Results:** Evaluated the displacement and stress distribution for each material across healing stages (T1~T3) to determine the safest reconstructive option.
-  - [📄 Read Full Research Paper (PDF)](./Reports/Rhinoplasty/rhinoplasty.pdf)
+Through my research on syndactyly surgery and rhinoplasty grafts, I encountered limitations of conventional FEA, including high computational costs, numerical convergence difficulties, and simplified material assumptions.
 
-## 3. Mechatronics & Robotics
-- **Snake Robot:** Implemented bio-inspired S-wave locomotion using Python and Maestro servo controllers.
-  - [📄 Read Full Research Paper (In Korean) (PDF)](./Reports/Snake_robot/A_MultiLinked_Wheeled_Robot_Inspired_by_Serpentine_Motion.pdf)
+During the syndactyly project, complex 3D contact simulations often required substantial computational time and did not always converge. These challenges led me to explore dimensional simplification and motivated my interest in **machine-learning-based surrogate modeling**.
 
-- **Braille Device:** Developed a 6-solenoid-based Braille notification device to improve information accessibility for the visually impaired.
-  - [🎬 Video: Braille Device Demonstration](./Reports/Braille/Braille_Device_Demo.mp4)
+I am now independently studying how data-driven models can accelerate FEA predictions, with a long-term goal of extending these methods to nonlinear materials and broader computational mechanics problems.
 
-# 🔄 Ongoing Project: AI-FEA Integration Study
+## Research Experience
 
-Bridging classical mechanics and data science to accelerate structural analysis.
+### 01. Patient-Specific Modeling for Syndactyly Surgery
 
-- **Phase 1 (Foundations):** Mastering Linear Algebra (SVD/PCA), PDEs, and Continuum Mechanics as the mathematical basis for AI.
+**ANSYS | Structural FEA | Contact Mechanics | Mesh Convergence**
 
-- **Phase 2:** ...
+*ASME IMECE 2025 | Co-author*
+
+Developed the FEA component of a collaborative research framework combining photogrammetry-based hand reconstruction with biomechanical analysis of surgical flaps.
+
+**My Contributions**
+- Conducted ANSYS modeling, meshing, and structural simulations.
+- Applied anatomy-derived flap dimensions and surgical displacement conditions.
+- Addressed difficulties in 3D contact analysis by converting the complex web-space surface into a simplified 2D representation.
+- Established boundary conditions and performed mesh convergence studies.
+- Evaluated stress concentrations in a hexagonal dorsal flap.
+
+**Key Insight:** The analysis identified elevated stresses near flap corners, particularly along the sutured upper edge. The modeling process also highlighted the trade-off between geometric fidelity and computational feasibility.
+
+[Research Paper — IMECE 2025](./Reports/Syndactyly/IMECE2025-166019_Final.pdf)
+
+### 02. Biomechanical Stability of Rhinoplasty Grafts
+
+**ANSYS | 3D FEA | Composite Material Properties | Structural Analysis**
+
+*ASEE-NCS 2026 | First Author*
+
+Led a comparative study of fascia-wrapped diced cartilage (DC-F) and platelet-rich fibrin-embedded diced cartilage (DC-PRF) grafts under different postoperative conditions.
+
+**My Contributions**
+- Formulated the research questions and simulation methodology.
+- Constructed 3D nasal models and generated finite element meshes.
+- Estimated effective graft properties using literature data and analytical relationships.
+- Simulated three healing stages under daily loading and higher-force impact scenarios.
+- Analyzed stress and deformation results and prepared the manuscript.
+
+**Key Finding:** DC-F exhibited substantially higher peak von Mises stresses than DC-PRF under the simulated conditions, with the largest differences occurring approximately one month after surgery.
+
+[Research Paper — ASEE-NCS 2026](./Reports/Rhinoplasty/rhinoplasty.pdf)
+
+### 03. FEA-Assisted Surgical Planning: Review
+
+*Frontiers in Bioengineering and Biotechnology, 2025 | Co-author*
+
+Reviewed computational methods for surgical flap design, focusing on material modeling, geometry, boundary conditions, and simulation reliability.
+
+**My Contributions**
+- Reviewed and organized prior research on FEA-assisted flap design.
+- Investigated the feasibility of representative flap simulations using ANSYS.
+- Examined challenges involving tissue-property uncertainty and simplified mechanical models.
+
+The study reinforced my interest in improving the efficiency and reliability of biomechanical simulations.
+
+[Published Article](https://doi.org/10.3389/fbioe.2025.1611993) · [PDF](./Reports/Syndactyly/Handsurgery.pdf)
+
+---
+
+## Ongoing Independent Project
+
+### ML Surrogate Modeling for FEA Acceleration
+
+**Status: Foundational Study & Research Planning**
+
+**Research Question**
+
+Can machine-learning models trained on FEA simulation data accurately predict mechanical responses under unseen conditions while reducing repeated simulation costs?
+
+**Motivation**
+
+My previous biomechanics projects revealed the computational challenges of detailed 3D simulations. I am pursuing this independent project to explore how machine learning can complement conventional numerical methods.
+
+**Planned Approach**
+1. Generate a parametric FEA dataset by varying geometry, material properties, and loading conditions.
+2. Extract displacement and representative stress metrics.
+3. Develop and compare regression-based surrogate models using Python.
+4. Evaluate prediction accuracy and computational efficiency against conventional FEA.
+5. Explore the extension from simplified material models toward nonlinear soft-tissue behavior.
+
+**Planned Deliverables:** FEA dataset, Python models, accuracy and runtime comparisons, and reproducible GitHub documentation.
+
+**Long-Term Direction:** Extend ML-assisted simulation beyond surgical biomechanics toward efficient, generalizable methods for nonlinear computational mechanics.
+
+---
+
+## Robotics & Mechatronics
+
+**Multi-Linked Wheeled Snake Robot**
+
+Developed an eight-segment bio-inspired robotic system with Python-based path-following control.
+
+[Research Paper](./Reports/Snake_robot/A_MultiLinked_Wheeled_Robot_Inspired_by_Serpentine_Motion.pdf)
+
+**Braille Notification Device**
+
+Developed a solenoid-actuated system for converting Korean text into tactile Braille patterns.
+
+[Demonstration Video](./Reports/Braille/Braille_Device_Demo.mp4)
+
+## Technical Skills
+
+- **Simulation:** ANSYS, FEA, Mesh Convergence Analysis, Contact Modeling
+- **Programming:** Python, MATLAB
+- **CAD:** CATIA, SolidWorks
+- **Currently Learning:** Machine Learning, Surrogate Modeling, Nonlinear Computational Mechanics
+
+## Education & Scholarship
+
+**Hanyang University** — B.S. in Mechanical Engineering, 2026
+
+**Ohio Northern University** — Mechanical Engineering Exchange Program, 2024–2025
+
+**Korea–U.S. Student Exchange Program (KIAT)** — Scholarship Recipient, 2024–2025
+
+
+
