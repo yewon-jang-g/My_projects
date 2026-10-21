@@ -49,7 +49,7 @@ Led a comparative study of fascia-wrapped diced cartilage (DC-F) and platelet-ri
 - Formulated the research questions and simulation methodology.
 - Constructed 3D nasal models and generated finite element meshes.
 - Estimated effective graft properties using literature data and analytical relationships.
-- Simulated three healing stages under daily loading and higher-force impact scenarios.
+- Simulated three healing stages under static loading conditions of 0.5N and 5N.
 - Analyzed stress and deformation results and prepared the manuscript.
 
 **Key Finding:** DC-F exhibited substantially higher peak von Mises stresses than DC-PRF under the simulated conditions, with the largest differences occurring approximately one month after surgery.
