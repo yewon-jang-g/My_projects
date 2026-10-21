@@ -42,7 +42,7 @@ These are prescribed load comparisons, not a transient dynamic collision simulat
 
 ## 5. Findings reported in the paper
 
-The published study reports mesh convergence checking and compares graft stress and deformation across the modeled conditions (Tables 3-4 and Figures 3–4).
+The published study reports mesh convergence checking and compares graft stress and deformation across the modeled conditions (Tables 3–4 and Figures 3–4).
 
 At **T2 (one month after surgery)**, for example:
 
