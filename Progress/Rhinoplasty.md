@@ -12,7 +12,7 @@ My interest in studying rhinoplasty from a biomechanical perspective was inspire
 
 The resulting work compared **fascia-wrapped diced cartilage (DC-F)** with **platelet-rich fibrin-embedded diced cartilage (DC-PRF)**.
 
-**Supporting material:** [Initial proposal](./assets/Rhinoplasty/Rhinoplasty.pdf)
+**Supporting material:** [Initial proposal](./assets/Rhinoplasty/Idea_propasal.pdf)
 ## 2. Developing the nasal model
 
 I developed nasal geometry using **CATIA and SpaceClaim**. I assumed symmetry and modeled **one half of the nose** to reduce computational complexity. The final model contained a nasal soft tissue envelope, graft, nasal bone, lateral cartilage, and septal cartilage.
@@ -42,7 +42,7 @@ These are prescribed load comparisons, not a transient dynamic collision simulat
 
 ## 5. Findings reported in the paper
 
-The published study reports mesh convergence checking and compares graft stress and deformation across the modeled conditions (Tables 3-4 and Figures 3–4).
+The published study reports mesh convergence checking and compares graft stress and deformation across the modeled conditions (Tables 3–4 and Figures 3–4).
 
 At **T2 (one month after surgery)**, for example:
 

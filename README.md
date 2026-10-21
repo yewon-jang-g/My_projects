@@ -49,7 +49,7 @@ Led a comparative study of fascia-wrapped diced cartilage (DC-F) and platelet-ri
 - Formulated the research questions and simulation methodology.
 - Constructed 3D nasal models and generated finite element meshes.
 - Estimated effective graft properties using literature data and analytical relationships.
-- Simulated three healing stages under daily loading and higher-force impact scenarios.
+- Simulated three healing stages under static loading conditions of 0.5N and 5N.
 - Analyzed stress and deformation results and prepared the manuscript.
 
 **Key Finding:** DC-F exhibited substantially higher peak von Mises stresses than DC-PRF under the simulated conditions, with the largest differences occurring approximately one month after surgery.
@@ -82,8 +82,6 @@ These experiences shaped my interest in developing more efficient computational 
 
 *Supporting simulation videos, figures, and lab-meeting presentations are available within each project page.*
 
----
-
 ## Ongoing Independent Project
 
 ### ML Surrogate Modeling for FEA Acceleration
@@ -109,15 +107,13 @@ My previous biomechanics projects revealed the computational challenges of detai
 
 **Long-Term Direction:** Extend ML-assisted simulation beyond surgical biomechanics toward efficient, generalizable methods for nonlinear computational mechanics.
 
----
-
 ## Robotics & Mechatronics
 
 **Multi-Linked Wheeled Snake Robot**
 
 Developed an eight-segment bio-inspired robotic system with Python-based path-following control.
 
-[Research Paper](./Reports/Snake_robot/A_MultiLinked_Wheeled_Robot_Inspired_by_Serpentine_Motion.pdf)
+[Research Paper](./Reports/Snake_robot/A_MultiLinked_Wheeled_Robot_Inspired_by_Serpentine_Motion.pdf), [Poster](./Reports/Snake_robot/Poster_AMultiLinkedWheeledRobotInspiredbySerpentineMotion.pdf)
 
 **Braille Notification Device**
 

@@ -20,7 +20,7 @@ Reproducing the complete flap transfer and suturing procedure in 3D proved diffi
 
 I therefore shifted to a simplified representation: extract the relevant web space skin surface from the 3D hand model into a 2D representation, then compare the measurements of the extracted skin and the surgical flap to determine appropriate displacement conditions. This made it possible to study flap stress under a more tractable set of assumptions.
 
-**Supporting material:** [File 1 — Extracting 2D skin from the 3D model](./assets/Syndactyly/2D_progress(1).pdf), [File 2 — Determining displacement from skin and surgical flap measurements](./assets/Syndactyly/2D_progress(2).pdf)
+**Supporting material:** [File 1 — Extracting 2D skin from the 3D model](./assets/Syndactyly/2D_progress(1).pdf), [File 2 — Determining displacement from skin and surgical flap measurements](./assets/Syndactyly/2D_Progress(2).pdf)
 
 ## 3. Further exploratory work: Hexagonal and other flap geometries
 
@@ -30,7 +30,7 @@ I also explored an additional flap shape reported in the surgical literature, us
 
 This subsequent exploratory model in File 4 should be distinguished from the **published IMECE study, which evaluates a hexagonal flap**. 
 
-**Supporting material:** [File 3 — Hexagonal flap analysis](./assets/Syndactyly/2D_progress(3).pdf), [File 4 — New flap geometry](./assets/Syndactyly/2D_progress(4).pdf).
+**Supporting material:** [File 3 — Hexagonal flap analysis](./assets/Syndactyly/2D_Progress(3).pdf), [File 4 — New flap geometry](./assets/Syndactyly/2D_Progress(4).pdf).
 
 ## 4. What I Learned & Technical Limitations
 
