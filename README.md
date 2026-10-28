@@ -36,6 +36,7 @@ Contributed to finite element analyses comparing the mechanical behavior of surg
 **Key Insight:** The analysis identified elevated stresses near flap corners, particularly along the sutured upper edge. The modeling process also highlighted the trade-off between geometric fidelity and computational feasibility.
 
 [Research Paper — IMECE 2025](./Reports/Syndactyly/IMECE2025-166019_Final.pdf)
+
 Finite Element Comparison of Rectangular, Hexagonal, and Cross-Shaped Flaps for Webspace Reconstruction in Syndactyly. The Journal of Hand Surgery — Under Review (2026)
 
 ### 02. Biomechanical Stability of Rhinoplasty Grafts
