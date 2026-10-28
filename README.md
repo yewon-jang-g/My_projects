@@ -1,6 +1,6 @@
 # Yewon Jang
 
-### Computational Mechanics | Computational Biomechanics | Machine Learning
+### Computational Biomechanics | Computational Mechanics | Machine Learning
 
 **B.S. in Mechanical Engineering, Hanyang University (2026)**
 
@@ -8,34 +8,35 @@
 
 ## About Me
 
-I am a mechanical engineering graduate with research experience in **finite element analysis (FEA) and computational biomechanics**. My research interests lie in integrating physics-based simulation with machine learning to develop more efficient and reliable computational methods.
+My primary research interest lies in **computational biomechanics**, particularly finite element modeling of soft tissues and the mechanical behavior of biological structures.
 
-Through my research on syndactyly surgery and rhinoplasty grafts, I encountered limitations of conventional FEA, including high computational costs, numerical convergence difficulties, and simplified material assumptions.
+Through my research on syndactyly reconstruction and rhinoplasty graft stability, I have developed an interest in addressing challenges associated with contact mechanics, material characterization, and numerical convergence in soft-tissue simulations.
 
-During the syndactyly project, complex 3D contact simulations often required substantial computational time and did not always converge. These challenges led me to explore dimensional simplification and motivated my interest in **machine-learning-based surrogate modeling**.
-
-I am now independently studying how data-driven models can accelerate FEA predictions, with a long-term goal of extending these methods to nonlinear materials and broader computational mechanics problems.
+My long-term goal is to develop accurate and robust computational methods for patient-specific biomechanical modeling. I am also interested in exploring machine learning as a complementary tool to improve the computational efficiency of repeated finite element simulations.
 
 ## Research Experience
 
-### 01. Patient-Specific Modeling for Syndactyly Surgery
+### 01. Finite Element Analysis of Flap Designs for Syndactyly Reconstruction
 
-**ANSYS | Structural FEA | Contact Mechanics | Mesh Convergence**
+**ANSYS | Computational Biomechanics | Soft-Tissue FEA | Boundary Conditions**
 
 *ASME IMECE 2025 | Co-author*
+*The Journal of Hand Surgery | Manuscript Under Review | Second Author*
 
-Developed the FEA component of a collaborative research framework combining photogrammetry-based hand reconstruction with biomechanical analysis of surgical flaps.
+Contributed to finite element analyses comparing the mechanical behavior of surgical flap designs using simplified 2D models derived from 3D hand geometry.
 
 **My Contributions**
-- Conducted ANSYS modeling, meshing, and structural simulations.
-- Applied anatomy-derived flap dimensions and surgical displacement conditions.
-- Addressed difficulties in 3D contact analysis by converting the complex web-space surface into a simplified 2D representation.
-- Established boundary conditions and performed mesh convergence studies.
-- Evaluated stress concentrations in a hexagonal dorsal flap.
+- Developed and refined finite element models using ANSYS.
+- Investigated numerical convergence and mesh distortion challenges in preliminary 3D contact simulations.
+- Contributed to the transition from complex 3D models to simplified 2D representations for computational feasibility.
+- Applied displacement boundary conditions to simulate flap advancement and donor-site closure.
+- Contributed to comparative analyses of rectangular, hexagonal, and cross-shaped flaps under varying skin stiffness and closure constraints.
+- Analyzed von Mises stress distributions to evaluate the effects of flap geometry and boundary conditions.
 
 **Key Insight:** The analysis identified elevated stresses near flap corners, particularly along the sutured upper edge. The modeling process also highlighted the trade-off between geometric fidelity and computational feasibility.
 
 [Research Paper — IMECE 2025](./Reports/Syndactyly/IMECE2025-166019_Final.pdf)
+Finite Element Comparison of Rectangular, Hexagonal, and Cross-Shaped Flaps for Webspace Reconstruction in Syndactyly. The Journal of Hand Surgery — Under Review (2026)
 
 ### 02. Biomechanical Stability of Rhinoplasty Grafts
 
