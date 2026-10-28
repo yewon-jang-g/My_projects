@@ -21,6 +21,7 @@ My long-term goal is to develop accurate and robust computational methods for pa
 **ANSYS | Computational Biomechanics | Soft-Tissue FEA | Boundary Conditions**
 
 *ASME IMECE 2025 | Co-author*
+
 *The Journal of Hand Surgery | Manuscript Under Review | Second Author*
 
 Contributed to finite element analyses comparing the mechanical behavior of surgical flap designs using simplified 2D models derived from 3D hand geometry.
